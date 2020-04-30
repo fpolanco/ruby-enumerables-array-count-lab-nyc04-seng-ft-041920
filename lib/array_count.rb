@@ -12,7 +12,7 @@ end
 def count_empty_strings(array)
   empty_string = []
   array.count do |item|
-    if item == [" "]
+    if item.to_s.empty?
       binding.pry
       empty_string << item
     end
