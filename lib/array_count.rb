@@ -6,7 +6,7 @@ def count_strings(array)
   if item.is_a?(String)
     string_array << item
   end
-end
+ end
 end
 
 def count_empty_strings(array)
@@ -15,5 +15,5 @@ def count_empty_strings(array)
     if item.to_s.empty?
     empty_string << item
     end
-end
+ end
 end
